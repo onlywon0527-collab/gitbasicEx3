@@ -1,0 +1,123 @@
+   1  git config --global user.name "hwon"
+    2  git config --global user.email
+    3  git config --global user.email "onlywon0527@gmail.com"
+    4  git config --global user.email
+    5  git config --global init.defaultBranch main
+    6  git config --global init.defaultBranch
+    7  git init
+    8  ls
+    9  ls -al
+   10  clear
+   11  vi
+   12  vi
+   13  vi rectangle
+   14  vi circle
+   15  cat rectangle
+   16  cat circle
+   17  CLEAR
+   18  LS
+   19  git add rectangle.txt
+   20  git add circle.txt
+   21  vi rectangle
+   22  git add rectangle.txt
+   23  git commit -m "rectangle add green"
+   24  git add circle
+   25  git add rectangle
+   26  git commit -m "rectangle add green"
+   27  rm -rf .git
+   28  rm circle rectangle
+   29  ls -al
+   30  clear
+   31  ls -al
+   32  history
+   33  clear
+   34  vi rectangle.txt
+   35  vi circle.txt
+   36  git add .
+   37  ls
+   38  
+   39  history
+   40  vi triangle.txt
+   41  vi pentagon.txt
+   42  ls
+   43  git status
+   44  rm -rf .git
+   45  rm circle.txt rectangle.txt triangle.txt pentagon.txt
+   46  ls
+   47  clear
+   48  vi rectangle.txt
+   49  git init
+   50  git add rectangle.txt
+   51  git commit
+   52  git log
+   53  vi rectangle.txt
+   54  git add rectangle.txt
+   55  vi rectangle.txt
+   56  vi circle.txt
+   57  ls
+   58  git log
+   59  git status
+   60  git commit -m "green 추 가"
+   61  git status
+   62  git add rectangle.txt
+   63  git status
+   64  git add circle.txt
+   65  git status
+   66  git commit
+   67  git status
+   68  git log
+   69  history
+   70  ls
+   71  vi triangle.txt
+   72  cat triangle.txt
+   73  git status
+   74  git add triangle.txt
+   75  git status
+   76  git commit
+   77  git status
+   78  git commit
+   79  git status
+   80  git log
+   81  history
+   82  git status
+   83  clear
+   84  rm -rf .git
+   85  ls -al
+   86  rm circle.txt rectangle.txt triangle.txt
+   87  ls -al
+   88  clear
+   89  git init
+   90  vi rectangle.txt
+   91  git add rectangle.txt
+   92  git commit -m 'rectangle init'
+   93  vi rectangle.txt
+   94  git add rectangle.txt
+   95  vi rectangle.txt
+   96  cat rectangle.txt
+   97  git log
+   98  git staus
+   99  git status
+  100  git diff
+  101  git diff --cached
+  102  git log
+  103  git diff  b84dd3c8a3
+  104  git diff HEAD
+  105  git diff b84dd3c8a325
+  106  clear
+  107  git commit -m "green add"
+  108  git add rectangle.txt
+  109  git commit -m "blue add"
+  110  git log
+  111  git diff HEAD
+  112  git diff b84dd3c8a32 aececb27a9
+  113  git diff aececb27a9d7190c856 35d17bbaa6d86131c2eed01
+  114  git diff HEAD^ HEAD
+  115  git diff HEAD^^ HEAD
+  116  git diff HEAD HEAD^
+  117  git log
+  118  git checkout b84dd3c8a32
+  119  git log
+  120  git log
+  121  cat rectangle.txt
+  122  git status
+  123  history
